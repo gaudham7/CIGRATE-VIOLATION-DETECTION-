@@ -62,17 +62,7 @@ Cigarette-Violation-Detection-In-Restricted-Areas/
 | `yolo11s.pt` | Person detection (class 0) | COCO pretrained — auto-downloaded by Ultralytics |
 | `best.pt` | Cigarette detection (class 1) | Custom trained on labelled cigarette dataset |
 
-### ⬇️ Download Custom Model (`best.pt`)
 
-The custom cigarette detection model is hosted on Google Drive due to file size:
-
-**[📥 Download best.pt from Google Drive](https://drive.google.com/file/d/1bVRSFUKuPyENUBAcZmGeOIHQh8gKLCn2/view?usp=sharing)**
-
-Place the downloaded `best.pt` file in the root of the project directory before running inference.
-
----
-
-## 🏗️ Complete Pipeline
 
 ### 1. Dataset Preparation
 - Raw images collected containing cigarettes in various scenarios
@@ -233,6 +223,4 @@ This project is open-source and available under the [MIT License](LICENSE).
 ---
 
 ## 👤 Author
-
-**Aditya**
-- GitHub: [@ADITYA-user18](https://github.com/ADITYA-user18)
+**Goutham sankar**
