@@ -128,49 +128,6 @@ pip install -r requirements.txt
 ultralytics>=8.3.0
 opencv-python>=4.8.0
 numpy>=1.24.0
-```
-
-> **Note:** `ultralytics` automatically handles downloading `yolo11s.pt` (COCO pretrained) on first run. You only need to manually download `best.pt`.
-
----
-
-## 🚀 How to Run
-
-### Step 1 — Clone the repository
-
-```bash
-git clone https://github.com/ADITYA-user18/Cigarette-Violation-Detection-In-Restricted-Areas.git
-cd Cigarette-Violation-Detection-In-Restricted-Areas
-```
-
-### Step 2 — Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### Step 3 — Download the custom model
-
-Download `best.pt` from the [Google Drive link](https://drive.google.com/file/d/1bVRSFUKuPyENUBAcZmGeOIHQh8gKLCn2/view?usp=sharing) and place it in the project root.
-
-### Step 4 — Add your input video
-
-Place your input video in the project root. Update the config at the top of `Inference.py`:
-
-```python
-VIDEO_IN  = "your_video.mp4"   # Input video path
-VIDEO_OUT = "output.mp4"       # Output video path
-```
-
-### Step 5 — Run inference
-
-```bash
-python Inference.py
-```
-
-The processed output video will be saved in the project root.
-
----
 
 ## 🔧 Configuration Parameters
 
